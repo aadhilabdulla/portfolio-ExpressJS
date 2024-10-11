@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_contact.css" type="text/css">
+    <title>Aadhil Abdulla</title>
+</head>
+<body>
+    <div class="top" id="page1"></div>
+    <div class="header">
+        <a href="home.html#page1"><button>HOME</button></a>
+        <a href="home.html#page2"><button>ABOUT ME</button></a>
+        <a href="home.html#page3"><button>TECHNOLOGIES</button></a>
+        <a href="home.html#page4"><button>PROJECTS</button></a>
+        <a href="/contact"><button>CONTACT</button></a>
+    </div> 
+
+    <div class="page1">
+        <div class="page1_1">
+            <div class="title1">
+                Get in touch
+            </div>
+        </div>
+        <div class="page1_2">
+            <form action=""  method="post"  onsubmit="return validate()">
+                <div class="container_1">
+                    <div>Name</div>
+                    <div>Email</div>
+                    <div>Message</div>
+                </div>
+                <div class="container_2">
+                    <div><input id="name" class="name" type="text" name="name"></div>
+                    <div><input id="email" type="email" name="email"></div>
+                    <div><textarea id="textarea" name="message" id=""></textarea></div>
+                </div>
+                <input type="submit" name="SUBMIT" id="submit">
+            </form>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer_parent">
+            <div class="footer_icons">
+                <img class="img1" src="linkedin-black.png" alt="no image">
+                <a href="https://www.linkedin.com/in/aadhil-abdulla" target="_blank">LinkedIn</a>
+            </div>
+            <div class="footer_icons">
+                <img class="img2" src="github.png" alt="no image">
+                <a href="https://github.com/aadhilabdulla/" target="_blank">GitHub</a>
+            </div>
+            <div class="footer_icons">
+                <img class="img3" src="instagram.png" alt="no image">
+                <a href="https://www.instagram.com/aadhil.abdulla/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </div>
+<%= name %>
+<%= rollNumber %>
+<script src="contact.js"></script>
+</body>
+</html>
